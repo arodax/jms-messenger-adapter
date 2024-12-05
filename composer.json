@@ -20,21 +20,23 @@
         }
     ],
     "require": {
-        "php": "^7.2 || ^8.0",
+        "php": "^7.2 || ^8.0 || ^8.3",
         "jms/serializer": "^2.3 || ^3.9",
-        "symfony/messenger": "^4.4 || ^5.3"
+        "symfony/messenger": "^4.4 || ^5.3 || ^6.4"
     },
     "require-dev": {
-        "behat/behat": "^3.6",
-        "behat/symfony2-extension": "^2.1",
+        "behat/behat": "^3.16",
+        "doctrine/annotations": "^2.0",
+        "friends-of-behat/symfony-extension": "^2.4",
         "jms/serializer-bundle": "^3.9",
         "matthiasnoback/symfony-dependency-injection-test": "dev-master",
         "php-coveralls/php-coveralls": "^2.4",
-        "phpunit/phpunit": "^8.5 || ^9.5",
+        "phpunit/phpunit": "^8.5 || ^9.5 || ^10.5",
         "symfony/config": "^4.4 || ^5.3",
         "symfony/debug": "^4.4 || ^5.3",
         "symfony/dependency-injection": "^4.4 || ^5.3",
-        "symfony/framework-bundle": "^4.4 || ^5.3",
+        "symfony/framework-bundle": "^4.4 || ^5.4 || ^6.4",
+        "symfony/yaml": "^4.4 || ^5.4 || ^6.4",
         "symfony/http-kernel": "^4.4 || ^5.3"
     },
     "config": {

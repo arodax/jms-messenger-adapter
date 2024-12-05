@@ -3,7 +3,7 @@
 namespace KunicMarko\JMSMessengerAdapter\Features\Context;
 
 use Behat\Behat\Context\Context;
-use Behat\Symfony2Extension\Context\KernelDictionary;
+use Symfony\Component\HttpKernel\KernelInterface;
 use PHPUnit\Framework\Assert;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Messenger\Bridge\Amqp\Transport\AmqpTransport;
@@ -13,7 +13,7 @@ use KunicMarko\JMSMessengerAdapter\Features\Fixtures\Project\Query\DoesItWork;
 
 class JMSMessengerAdapterContext implements Context
 {
-    use KernelDictionary;
+
 
     private $messageBus;
 
